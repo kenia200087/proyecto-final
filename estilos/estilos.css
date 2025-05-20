@@ -1,0 +1,103 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f4f7; /* Fondo suave rosita */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #e91e63; /* Rosa fuerte */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f1c6d9; /* Rosa suave al pasar el mouse */
+}
+
+/* Main Section */
+main {
+    margin: 20px;
+}
+
+.publicidad {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.publicidad h1 {
+    color: #e91e63; /* Rosa fuerte para el título */
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.publicidad p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #e91e63; /* Rosa fuerte */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .publicidad h1 {
+        font-size: 1.6rem;
+    }
+
+    .publicidad p {
+        font-size: 1rem;
+    }
+}
